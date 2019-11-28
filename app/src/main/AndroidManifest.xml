@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.zaidan.helloplants">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/trees"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/trees"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+                android:name=".Bagian_Tanaman.BagianTanaman2"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".Merawat_Tanaman.MerawatDeskripsi"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Manfaat_Tanaman.DeskripsiManfaat">
+        </activity>
+        <activity android:name=".Splash_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Nama_Tanaman.Set2_Name"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Bagian_Tanaman.BagianMain">
+        </activity>
+        <activity
+                android:name=".Merawat_Tanaman.MerawatTanaman"
+                android:label="@string/title_activity_merawat_tanaman"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Manfaat_Tanaman.ManfaatMain">
+        </activity>
+        <activity android:name=".Nama_Tanaman.ActivityName">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

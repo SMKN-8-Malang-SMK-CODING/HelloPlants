@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "759161767454",
+    "firebase_url": "https://helloplants-d37db.firebaseio.com",
+    "project_id": "helloplants-d37db",
+    "storage_bucket": "helloplants-d37db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759161767454:android:c97cb315e84049a6fb500f",
+        "android_client_info": {
+          "package_name": "com.zaidan.helloplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759161767454-62krcu2n2f6ojtmoncuvcc81amd41362.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zaidan.helloplants",
+            "certificate_hash": "e3a297d83bda088758ad5e89ef1d3d272ff814bf"
+          }
+        },
+        {
+          "client_id": "759161767454-a043gs2teuev53cplup9ka342t4tk7oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-hI9vGYqWgw_MKHb1etHLf5fUCU6UMKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759161767454-a043gs2teuev53cplup9ka342t4tk7oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
